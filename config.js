@@ -221,7 +221,7 @@ const CONFIG = { // 主配置对象，包含网站所有配置项
     // 音频设置
     // ====================================
     audio: { // 音频播放器配置
-        backgroundMusic: "https://s3plus.meituan.net/opapisdk/op_ticket_885190757_1758424375681_qdqqd_t01hdm.mp3", // 背景音乐文件路径，将音频上传图床，后获得的链接
+        backgroundMusic: "https://coss.yupoo.com/upchat/2025-11-13/1763044574862.mp4", // 背景音乐文件路径，将音频上传图床，后获得的链接
         defaultVolume: 0.3, // 默认音量大小（0-1之间）
         autoPlay: true, // 是否自动播放音乐
         loop: true, // 是否循环播放音乐
