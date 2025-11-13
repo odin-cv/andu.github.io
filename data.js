@@ -14,7 +14,7 @@ const organizationsData = [
     name: '互帮互助十人本',
     description: '百业成员互帮互助，齐心协力，共同拿下双十人本（百业本+普通本）！',
     host: '任何百业成员',
-    time: '一般周一晚上9.30',
+    time: '一般周一晚上8.30',
     location: '任何地点',
     image: 'https://www.yysls.cn/pc/gw/20220815175950/img/mhys/bz/18_bd1a5dc.jpg?image_process=format,jpg'
   }
