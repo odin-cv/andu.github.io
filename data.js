@@ -59,7 +59,7 @@ const characterData = [
   {
     id: 'sheng_qin_shu',
     name: "声琴舒",
-    title: "社长",
+    title: "社主",
     desc: "小声爱做白日梦",
     tags: ["好人", "话多", "懒虫"],
     avatar: "https://gitee.com/tx-feng/FengHuaWuQue/raw/Vue/Static/player/avatar/avatar11.avif",
@@ -98,7 +98,7 @@ const characterData = [
   {
     id: 'mo_tu_tu',
     name: "茉菟菟",
-    title: "躺地板大王",
+    title: "宣传",
     desc: "躺地板大王",
     tags: ["待定", "待定", "待定"],
     avatar: "https://gitee.com/tx-feng/FengHuaWuQue/raw/Vue/Static/player/avatar/avatar61.avif",
@@ -119,7 +119,7 @@ const characterData = [
   {
     id: 'chi',
     name: "池蕤清",
-    title: "待定",
+    title: "副社主",
     desc: "超级i人😶",
     tags: ["极致探索"],
     avatar: "https://gitee.com/tx-feng/FengHuaWuQue/raw/Vue/Static/player/avatar/avatar34.avif",
@@ -129,127 +129,117 @@ const characterData = [
     ]
   },
   {
-    id: 'zhao_qian',
-    name: "昭千",
-    title: "声音洪亮",
-    desc: "混一局，躺一局，调整心态下一局",
-    tags: ["尘尘小王", "小昭", "电话骚扰"],
+    id: 'ye_hui_yu',
+    name: "叶徵予",
+    title: "待定",
+    desc: "队长我带耳朵了！雪狸儿行吗？",
+    tags: ["穿搭高手"],
     avatar: "https://gitee.com/tx-feng/FengHuaWuQue/raw/Vue/Static/player/avatar/avatar42.avif",
     art: [
-      "https://s3plus.meituan.net/opapisdk/op_ticket_885190757_1757397227211_qdqqd_4naopb.avif",
-      "https://s3plus.meituan.net/opapisdk/op_ticket_885190757_1757397230042_qdqqd_f4vkc9.avif",
-      "https://s3plus.meituan.net/opapisdk/op_ticket_885190757_1757397231525_qdqqd_ggvhgy.avif",
-      "https://s3plus.meituan.net/opapisdk/op_ticket_885190757_1757397233810_qdqqd_mc7vne.avif",
-      "https://s3plus.meituan.net/opapisdk/op_ticket_885190757_1757397236203_qdqqd_2vags6.avif"
+      "https://s3plus.meituan.net/opapisdk/op_ticket_1_5677168484_1763207827214_qdqqd_s1hsqo.avif",
+      "https://s3plus.meituan.net/opapisdk/op_ticket_1_885190757_1763207879523_qdqqd_w2somv.avif",
+      "https://s3plus.meituan.net/opapisdk/op_ticket_1_5677168484_1763207915409_qdqqd_a5yk7j.avif"
+      
+     
     ]
   },
   {
-    id: 'jie_qing_zhou',
-    name: "解卿舟",
-    title: "T0奶妈",
-    desc: "你身上有让人开心的魔法！",
-    tags: ["单挑田英", "小江", "霁月光风"],
+    id: 'ying_si',
+    name: "赢亖",
+    title: "无",
+    desc: "想要成为钧之实力者",
+    tags: ["唐刀的极意", "操作的细腻", "博弈的魅力"],
     avatar: "https://gitee.com/tx-feng/FengHuaWuQue/raw/Vue/Static/player/avatar/avatar21.avif",
     art: [
-      "https://s3plus.meituan.net/opapisdk/op_ticket_885190757_1757397350020_qdqqd_znw12b.avif",
-      "https://s3plus.meituan.net/opapisdk/op_ticket_885190757_1757397351447_qdqqd_fblzb9.avif",
-      "https://s3plus.meituan.net/opapisdk/op_ticket_885190757_1757397353136_qdqqd_8cymgg.avif"
+      "https://s3plus.meituan.net/opapisdk/op_ticket_1_5677168484_1763227410099_qdqqd_jipksl.avif",
+      "https://s3plus.meituan.net/opapisdk/op_ticket_1_5677168484_1763224849073_qdqqd_zz21oo.avif",
+      "https://s3plus.meituan.net/opapisdk/op_ticket_1_5677168484_1763227444721_qdqqd_2pklhn.avif"
     ]
   },
   {
-    id: 'wu_shi_yi',
-    name: "梧时易",
-    title: "双刀大王",
-    desc: "双刀刮背，特别粘人，武功高强。",
-    tags: ["博弈大王", "喜欢调教", "黄金腱鞘"],
+    id: 'wan_feng_qing_si_meng',
+    name: "晚风轻似梦",
+    title: "老师",
+    desc: "想去码头整点薯条——和你一起",
+    tags: ["待定", "待定", "待定"],
     avatar: "https://gitee.com/tx-feng/FengHuaWuQue/raw/Vue/Static/player/avatar/avatar22.avif",
     art: [
-      "https://s3plus.meituan.net/opapisdk/op_ticket_885190757_1757398247352_qdqqd_fp884x.avif",
-      "https://s3plus.meituan.net/opapisdk/op_ticket_885190757_1757398249733_qdqqd_p6ygrm.avif"
+      "https://s3plus.meituan.net/opapisdk/op_ticket_1_5677168484_1763208165186_qdqqd_cycvt2.avif"
+     
     ]
   },
   {
-    id: 'tian_ya_ke_wei_yang',
-    name: "天涯客|未央",
-    title: "保卫科",
-    desc: "练习千万武学，却无一门精通，在下未央是也！",
-    tags: ["唐刀大王", "三姓家奴（？）", "仇杀老大！", "本瘾十重", "打本特工队队长", "赏金猎人钟爱者"],
+    id: 'qiu',
+    name: "秋夜凪",
+    title: "待定",
+    desc: "干啥啥不行吃第一名",
+    tags: ["待定"],
     avatar: "https://gitee.com/tx-feng/FengHuaWuQue/raw/Vue/Static/player/avatar/avatar33.avif",
     art: [
-      "https://s3plus.meituan.net/opapisdk/op_ticket_885190757_1757397634377_qdqqd_5aahta.avif",
-      "https://s3plus.meituan.net/opapisdk/op_ticket_885190757_1757397636542_qdqqd_pt8i58.avif",
-      "https://s3plus.meituan.net/opapisdk/op_ticket_885190757_1757397637624_qdqqd_4byhh7.avif",
-      "https://s3plus.meituan.net/opapisdk/op_ticket_885190757_1757397638775_qdqqd_xmwr2q.avif",
-      "https://s3plus.meituan.net/opapisdk/op_ticket_885190757_1757397640574_qdqqd_43s5lo.avif",
-      "https://s3plus.meituan.net/opapisdk/op_ticket_885190757_1757397643125_qdqqd_hmm8y8.avif",
-      "https://s3plus.meituan.net/opapisdk/op_ticket_885190757_1757397644758_qdqqd_ju08va.avif"
+      "https://s3plus.meituan.net/opapisdk/op_ticket_1_5677168484_1763208304002_qdqqd_qrqt1g.avif"
+      
     ]
   },
   {
-    id: 'kong_luo_lai',
-    name: "空落来",
-    title: "玉玉大王",
-    desc: "什么？未央又说我偷懒？",
-    tags: ["飞天伞", "玉玉大王", "偷偷输出"],
+    id: 'yuan_ai',
+    name: "媛爱",
+    title: "老师",
+    desc: "不忘初心",
+    tags: ["待定", "待定", "待定"],
     avatar: "https://gitee.com/tx-feng/FengHuaWuQue/raw/Vue/Static/player/avatar/avatar82.avif",
     art: [
-      "https://s3plus.meituan.net/opapisdk/op_ticket_885190757_1757397754462_qdqqd_02liwl.avif",
-      "https://s3plus.meituan.net/opapisdk/op_ticket_885190757_1757397758303_qdqqd_gom70j.avif",
-      "https://s3plus.meituan.net/opapisdk/op_ticket_885190757_1757397761522_qdqqd_dpphoo.avif",
-      "https://s3plus.meituan.net/opapisdk/op_ticket_885190757_1757397763685_qdqqd_e4ox9d.avif",
-      "https://s3plus.meituan.net/opapisdk/op_ticket_885190757_1757397765778_qdqqd_ddgvnb.avif",
-      "https://s3plus.meituan.net/opapisdk/op_ticket_885190757_1757397767991_qdqqd_5fbzy4.avif"
+      "https://s3plus.meituan.net/opapisdk/op_ticket_1_885190757_1763208499449_qdqqd_7ckgke.avif"
+      
     ]
   },
   {
-    id: 'guan_xin_jing',
-    name: "关心京",
-    title: "小老婆",
-    desc: "就是有点想保护他的感觉。",
-    tags: ["小老公！", "心碎了很多瓣", "只取一瓢？"],
+    id: 'wen_shi_yao',
+    name: "温时钥",
+    title: "待定",
+    desc: "网上社恐",
+    tags: ["待定", "待定", "待定"],
     avatar: "https://gitee.com/tx-feng/FengHuaWuQue/raw/Vue/Static/player/avatar/avatar36.avif",
-    art: ["https://s3plus.meituan.net/opapisdk/op_ticket_885190757_1757397842303_qdqqd_decdsj.avif"]
+    art: ["https://s3plus.meituan.net/opapisdk/op_ticket_1_5677168484_1763208654498_qdqqd_2kt6c4.avif"]
   },
   {
-    id: 'yu_ban_sheng',
-    name: "雨半生",
-    title: "隐身",
-    desc: "悄悄滴，打枪滴不要。",
-    tags: ["厚薄发", "小雨", "偷偷观察"],
+    id: 'di',
+    name: "帝珩懿",
+    title: "待定",
+    desc: "|•᷅‎‎•᷄|",
+    tags: ["待定", "待定", "待定"],
     avatar: "https://gitee.com/tx-feng/FengHuaWuQue/raw/Vue/Static/player/avatar/avatar22.avif",
-    art: ["https://s3plus.meituan.net/opapisdk/op_ticket_885190757_1757397988662_qdqqd_p6vxpa.avif"]
+    art: ["https://s3plus.meituan.net/opapisdk/op_ticket_1_885190757_1763208857874_qdqqd_w4fegg.avif"]
   },
   {
-    id: 'zhen_jin_mian',
-    name: "枕矜眠",
+    id: 'shang',
+    name: "殇歌绝",
     title: "忙碌中",
-    desc: "忙啊，忙点好啊。",
-    tags: ["忙", "偷偷观察"],
+    desc: "总有人间一两风,填我十万八千梦",
+    tags: ["待定", "待定"],
     avatar: "https://gitee.com/tx-feng/FengHuaWuQue/raw/Vue/Static/player/avatar/avatar49.avif",
     art: [
-      "https://s3plus.meituan.net/opapisdk/op_ticket_885190757_1757398032293_qdqqd_50932h.avif",
-      "https://s3plus.meituan.net/opapisdk/op_ticket_885190757_1757398034941_qdqqd_8pdkx8.avif"
+      "https://s3plus.meituan.net/opapisdk/op_ticket_1_885190757_1763208929883_qdqqd_knnp09.avif"
+      
     ]
   },
   {
-    id: 'qi_yan_yu_feng',
-    name: "弃言于风",
-    title: "黑手党",
-    desc: "刀类爱好者，不定时出没的菜花。",
-    tags: ["双黄蛋", "什么八音？", "我双黄蛋！"],
+    id: 'su',
+    name: "苏青奈",
+    title: "待定",
+    desc: "山不见我，我自去见山……",
+    tags: ["待定", "待定", "待定"],
     avatar: "https://gitee.com/tx-feng/FengHuaWuQue/raw/Vue/Static/player/avatar/avatar76.avif",
     art: [
-      "https://s3plus.meituan.net/opapisdk/op_ticket_885190757_1757399061068_qdqqd_mdv3tq.avif",
-      "https://s3plus.meituan.net/opapisdk/op_ticket_885190757_1757399062997_qdqqd_a4r92i.avif",
-      "https://s3plus.meituan.net/opapisdk/op_ticket_885190757_1757399065561_qdqqd_jvt26p.avif"
-    ]
+      "https://s3plus.meituan.net/opapisdk/op_ticket_1_5677168484_1763209043102_qdqqd_o9o7zy.avif"
+      ]
+    
   },
   {
-    id: 'lin_qian_qu',
-    name: "林千曲",
-    title: "分魂",
-    desc: "你好，我叫林千曲！可我又不只是林千曲，嘻嘻！",
-    tags: ["可爱捏", "小水", "猜猜我是谁？"],
+    id: 'yi',
+    name: "易寻北",
+    title: "待定",
+    desc: "不许乱叭叭",
+    tags: ["待定", "待定", "待定"],
     avatar: "https://gitee.com/tx-feng/FengHuaWuQue/raw/Vue/Static/player/avatar/avatar31.avif",
     art: [
       "https://s3plus.meituan.net/opapisdk/op_ticket_885190757_1757397422069_qdqqd_1j3stl.avif",
@@ -263,20 +253,20 @@ const characterData = [
     ]
   },
   {
-    id: 'jian_zhao_yue_ming',
-    name: "鉴照月明",
-    title: "炎之分魂",
-    desc: "如雾气弥漫，留下模糊的足迹，又悄然散去。",
-    tags: ["神秘"],
+    id: 'qi_xiao_yu',
+    name: "祁晓妤",
+    title: "待定",
+    desc: "压力我我难受",
+    tags: ["待定"],
     avatar: "https://gitee.com/tx-feng/FengHuaWuQue/raw/Vue/Static/player/avatar/avatar16.avif",
-    art: ["https://s3plus.meituan.net/opapisdk/op_ticket_885190757_1757398285538_qdqqd_sklccb.avif"]
+    art: ["https://s3plus.meituan.net/opapisdk/op_ticket_1_5677168484_1763209257707_qdqqd_1324k2.avif"]
   },
   {
-    id: 'wen_ren_yi',
-    name: "闻人弈",
-    title: "无名皇帝",
-    desc: "无名的剑气将要划过你的脖颈。",
-    tags: ["虹虹玩家", "强力剑气", "弈！悟！"],
+    id: 'qie_kan_xia',
+    name: "且看下回分解",
+    title: "待定",
+    desc: "欲知后事如何",
+    tags: ["懒"],
     avatar: "https://gitee.com/tx-feng/FengHuaWuQue/raw/Vue/Static/player/avatar/avatar82.avif",
     art: [
       "https://s3plus.meituan.net/opapisdk/op_ticket_885190757_1757398309908_qdqqd_l4nvo3.avif",
@@ -284,11 +274,11 @@ const characterData = [
     ]
   },
   {
-    id: 'ye_yun_qing',
-    name: "叶云青",
-    title: "强力外援",
-    desc: "身在曹营心在汉。",
-    tags: ["九九玩家", "可爱小羊"],
+    id: 'luo_jie_fan',
+    name: "落芥凡",
+    title: "宣传大师",
+    desc: "许我一缕清风",
+    tags: ["待定", "待定"],
     avatar: "https://gitee.com/tx-feng/FengHuaWuQue/raw/Vue/Static/player/avatar/avatar15.avif",
     art: [
       "https://s3plus.meituan.net/opapisdk/op_ticket_885190757_1757398341240_qdqqd_l1qszf.avif",
@@ -296,24 +286,24 @@ const characterData = [
     ]
   },
   {
-    id: 'yue_luo_xiu_chen',
-    name: "月落修沉",
-    title: "战至癫狂",
-    desc: "我又来啦，哪里跌倒，我就躺在哪里。",
-    tags: ["开麦", "夜猫子", "叮叮叮"],
+    id: 'zhe_you',
+    name: "谪侑",
+    title: "大王",
+    desc: "欲语泪先流",
+    tags: ["动小池者死，懂？"],
     avatar: "https://gitee.com/tx-feng/FengHuaWuQue/raw/Vue/Static/player/avatar/avatar21.avif",
     art: [
-      "https://s3plus.meituan.net/opapisdk/op_ticket_885190757_1757398369888_qdqqd_k7ik7i.avif",
-      "https://s3plus.meituan.net/opapisdk/op_ticket_885190757_1757398370954_qdqqd_wionqo.avif",
-      "https://s3plus.meituan.net/opapisdk/op_ticket_885190757_1757398371946_qdqqd_mhxf36.avif"
+      "https://s3plus.meituan.net/opapisdk/op_ticket_1_885190757_1763209570108_qdqqd_ilo0wo.avif"
+      
+      
     ]
   },
   {
-    id: 'zhi_bei_bei_bei',
-    name: "纸杯杯杯",
-    title: "凉凉",
-    desc: "喜欢躺地上，喜欢收藏杯子。",
-    tags: ["无名小王", "偷偷学习", "又尽力了", "燕云王语嫣"],
+    id: 'fu_lian_qing_meng',
+    name: "浮莲清梦",
+    title: "待定",
+    desc: "落尽红樱君不见，轻绘梨花泪沾衣",
+    tags: ["待定"],
     avatar: "https://gitee.com/tx-feng/FengHuaWuQue/raw/Vue/Static/player/avatar/avatar42.avif",
     art: [
       "https://s3plus.meituan.net/opapisdk/op_ticket_885190757_1757398433668_qdqqd_1f8ja3.avif",
@@ -324,19 +314,19 @@ const characterData = [
   },
   {
     id: 'ming_wu_qi',
-    name: "名無凪",
-    title: "本体是雷语",
-    desc: "像未出鞘的刀，静立无声，偶然一句，便使众人身旁空气骤然撕裂。",
-    tags: ["喜欢腋下", "小鸟在哪里？", "梦酒殇之师"],
+    name: "空",
+    title: "空",
+    desc: "空",
+    tags: ["空"],
     avatar: "https://gitee.com/tx-feng/FengHuaWuQue/raw/Vue/Static/player/avatar/avatar83.avif",
     art: ["https://s3plus.meituan.net/opapisdk/op_ticket_885190757_1757398488001_qdqqd_m49adk.avif"]
   },
   {
     id: 'chang_sheng',
-    name: "丿長生",
+    name: "空",
     title: "社员",
-    desc: "support爱你的笑容 都没你的甜",
-    tags: ["人类高质量男性", "觉瘾十重"],
+    desc: "空",
+    tags: ["空"],
     avatar: "https://gitee.com/tx-feng/FengHuaWuQue/raw/Vue/Static/player/avatar/avatar65.avif",
     art: [
       "https://s3plus.meituan.net/opapisdk/op_ticket_885190757_1758436310174_qdqqd_w4er4j.avif"
@@ -344,10 +334,10 @@ const characterData = [
   },
   {
     id: 'ning_hao',
-    name: "宁好也好",
+    name: "空",
     title: "社员",
-    desc: "我想要吃饭！",
-    tags: ["目前还活着", "眼下还没死"],
+    desc: "空",
+    tags: ["空"],
     avatar: "https://gitee.com/tx-feng/FengHuaWuQue/raw/Vue/Static/player/avatar/avatar11.avif",
     art: [
       "https://s3plus.meituan.net/opapisdk/op_ticket_885190757_1758450562215_qdqqd_2ynbo5.avif"
@@ -355,7 +345,63 @@ const characterData = [
   },
   {
     id: 'feng_yi',
-    name: "峰伈3",
+    name: "空",
+    title: "空",
+    desc: "空",
+    tags: ["空"],
+    avatar: "https://gitee.com/tx-feng/FengHuaWuQue/raw/Vue/Static/player/avatar/avatar11.avif",
+    art: [
+      "https://s3plus.meituan.net/opapisdk/op_ticket_885190757_1757398092558_qdqqd_fqwyyr.avif",
+      "https://s3plus.meituan.net/opapisdk/op_ticket_885190757_1757398094217_qdqqd_yumaub.avif",
+      "https://s3plus.meituan.net/opapisdk/op_ticket_885190757_1757398127831_qdqqd_guf314.avif",
+      "https://s3plus.meituan.net/opapisdk/op_ticket_885190757_1757398131295_qdqqd_6qamva.avif"
+    ]
+  },
+  {
+    id: 'feng_yi',
+    name: "空",
+    title: "空",
+    desc: "空",
+    tags: ["空"],
+    avatar: "https://gitee.com/tx-feng/FengHuaWuQue/raw/Vue/Static/player/avatar/avatar11.avif",
+    art: [
+      "https://s3plus.meituan.net/opapisdk/op_ticket_885190757_1757398092558_qdqqd_fqwyyr.avif",
+      "https://s3plus.meituan.net/opapisdk/op_ticket_885190757_1757398094217_qdqqd_yumaub.avif",
+      "https://s3plus.meituan.net/opapisdk/op_ticket_885190757_1757398127831_qdqqd_guf314.avif",
+      "https://s3plus.meituan.net/opapisdk/op_ticket_885190757_1757398131295_qdqqd_6qamva.avif"
+    ]
+  },
+  {
+    id: 'feng_yi',
+    name: "空",
+    title: "空",
+    desc: "空",
+    tags: ["空"],
+    avatar: "https://gitee.com/tx-feng/FengHuaWuQue/raw/Vue/Static/player/avatar/avatar11.avif",
+    art: [
+      "https://s3plus.meituan.net/opapisdk/op_ticket_885190757_1757398092558_qdqqd_fqwyyr.avif",
+      "https://s3plus.meituan.net/opapisdk/op_ticket_885190757_1757398094217_qdqqd_yumaub.avif",
+      "https://s3plus.meituan.net/opapisdk/op_ticket_885190757_1757398127831_qdqqd_guf314.avif",
+      "https://s3plus.meituan.net/opapisdk/op_ticket_885190757_1757398131295_qdqqd_6qamva.avif"
+    ]
+  },
+  {
+    id: 'feng_yi',
+    name: "空",
+    title: "空",
+    desc: "空",
+    tags: ["虹虹玩家", "紫色韵味", "开服玩家"],
+    avatar: "https://gitee.com/tx-feng/FengHuaWuQue/raw/Vue/Static/player/avatar/avatar11.avif",
+    art: [
+      "https://s3plus.meituan.net/opapisdk/op_ticket_885190757_1757398092558_qdqqd_fqwyyr.avif",
+      "https://s3plus.meituan.net/opapisdk/op_ticket_885190757_1757398094217_qdqqd_yumaub.avif",
+      "https://s3plus.meituan.net/opapisdk/op_ticket_885190757_1757398127831_qdqqd_guf314.avif",
+      "https://s3plus.meituan.net/opapisdk/op_ticket_885190757_1757398131295_qdqqd_6qamva.avif"
+    ]
+  },
+  {
+    id: 'feng_yi',
+    name: "空",
     title: "社长",
     desc: "为人仁厚，重情重义。",
     tags: ["虹虹玩家", "紫色韵味", "开服玩家"],
@@ -369,7 +415,7 @@ const characterData = [
   },
   {
     id: 'feng_yi',
-    name: "峰伈4",
+    name: "空",
     title: "社长",
     desc: "为人仁厚，重情重义。",
     tags: ["虹虹玩家", "紫色韵味", "开服玩家"],
@@ -383,7 +429,21 @@ const characterData = [
   },
   {
     id: 'feng_yi',
-    name: "峰伈5",
+    name: "空",
+    title: "社长",
+    desc: "为人仁厚，重情重义。",
+    tags: ["虹虹玩家", "紫色韵味", "开服玩家"],
+    avatar: "https://gitee.com/tx-feng/FengHuaWuQue/raw/Vue/Static/player/avatar/avatar11.avif",
+    art: [
+      "https://s3plus.meituan.net/opapisdk/op_ticket_885190757_1757398092558_qdqqd_fqwyyr.avif",
+      "https://s3plus.meituan.net/opapisdk/op_ticket_885190757_1757398094217_qdqqd_yumaub.avif",
+      "https://s3plus.meituan.net/opapisdk/op_ticket_885190757_1757398127831_qdqqd_guf314.avif",
+      "https://s3plus.meituan.net/opapisdk/op_ticket_885190757_1757398131295_qdqqd_6qamva.avif"
+    ]
+  },
+  {
+    id: '空',
+    name: "空",
     title: "社长",
     desc: "为人仁厚，重情重义。",
     tags: ["虹虹玩家", "紫色韵味", "开服玩家"],
@@ -397,7 +457,21 @@ const characterData = [
   },
   {
     id: 'feng_yi',
-    name: "峰伈6",
+    name: "空11",
+    title: "空",
+    desc: "为人仁厚，重情重义。",
+    tags: ["虹虹玩家", "紫色韵味", "开服玩家"],
+    avatar: "https://gitee.com/tx-feng/FengHuaWuQue/raw/Vue/Static/player/avatar/avatar11.avif",
+    art: [
+      "https://s3plus.meituan.net/opapisdk/op_ticket_885190757_1757398092558_qdqqd_fqwyyr.avif",
+      "https://s3plus.meituan.net/opapisdk/op_ticket_885190757_1757398094217_qdqqd_yumaub.avif",
+      "https://s3plus.meituan.net/opapisdk/op_ticket_885190757_1757398127831_qdqqd_guf314.avif",
+      "https://s3plus.meituan.net/opapisdk/op_ticket_885190757_1757398131295_qdqqd_6qamva.avif"
+    ]
+  },
+  {
+    id: 'feng_yi',
+    name: "空",
     title: "社长",
     desc: "为人仁厚，重情重义。",
     tags: ["虹虹玩家", "紫色韵味", "开服玩家"],
@@ -411,7 +485,7 @@ const characterData = [
   },
   {
     id: 'feng_yi',
-    name: "峰伈7",
+    name: "空",
     title: "社长",
     desc: "为人仁厚，重情重义。",
     tags: ["虹虹玩家", "紫色韵味", "开服玩家"],
@@ -425,91 +499,7 @@ const characterData = [
   },
   {
     id: 'feng_yi',
-    name: "峰伈8",
-    title: "社长",
-    desc: "为人仁厚，重情重义。",
-    tags: ["虹虹玩家", "紫色韵味", "开服玩家"],
-    avatar: "https://gitee.com/tx-feng/FengHuaWuQue/raw/Vue/Static/player/avatar/avatar11.avif",
-    art: [
-      "https://s3plus.meituan.net/opapisdk/op_ticket_885190757_1757398092558_qdqqd_fqwyyr.avif",
-      "https://s3plus.meituan.net/opapisdk/op_ticket_885190757_1757398094217_qdqqd_yumaub.avif",
-      "https://s3plus.meituan.net/opapisdk/op_ticket_885190757_1757398127831_qdqqd_guf314.avif",
-      "https://s3plus.meituan.net/opapisdk/op_ticket_885190757_1757398131295_qdqqd_6qamva.avif"
-    ]
-  },
-  {
-    id: 'feng_yi',
-    name: "峰伈9",
-    title: "社长",
-    desc: "为人仁厚，重情重义。",
-    tags: ["虹虹玩家", "紫色韵味", "开服玩家"],
-    avatar: "https://gitee.com/tx-feng/FengHuaWuQue/raw/Vue/Static/player/avatar/avatar11.avif",
-    art: [
-      "https://s3plus.meituan.net/opapisdk/op_ticket_885190757_1757398092558_qdqqd_fqwyyr.avif",
-      "https://s3plus.meituan.net/opapisdk/op_ticket_885190757_1757398094217_qdqqd_yumaub.avif",
-      "https://s3plus.meituan.net/opapisdk/op_ticket_885190757_1757398127831_qdqqd_guf314.avif",
-      "https://s3plus.meituan.net/opapisdk/op_ticket_885190757_1757398131295_qdqqd_6qamva.avif"
-    ]
-  },
-  {
-    id: 'feng_yi',
-    name: "峰伈10",
-    title: "社长",
-    desc: "为人仁厚，重情重义。",
-    tags: ["虹虹玩家", "紫色韵味", "开服玩家"],
-    avatar: "https://gitee.com/tx-feng/FengHuaWuQue/raw/Vue/Static/player/avatar/avatar11.avif",
-    art: [
-      "https://s3plus.meituan.net/opapisdk/op_ticket_885190757_1757398092558_qdqqd_fqwyyr.avif",
-      "https://s3plus.meituan.net/opapisdk/op_ticket_885190757_1757398094217_qdqqd_yumaub.avif",
-      "https://s3plus.meituan.net/opapisdk/op_ticket_885190757_1757398127831_qdqqd_guf314.avif",
-      "https://s3plus.meituan.net/opapisdk/op_ticket_885190757_1757398131295_qdqqd_6qamva.avif"
-    ]
-  },
-  {
-    id: 'feng_yi',
-    name: "峰伈11",
-    title: "社长",
-    desc: "为人仁厚，重情重义。",
-    tags: ["虹虹玩家", "紫色韵味", "开服玩家"],
-    avatar: "https://gitee.com/tx-feng/FengHuaWuQue/raw/Vue/Static/player/avatar/avatar11.avif",
-    art: [
-      "https://s3plus.meituan.net/opapisdk/op_ticket_885190757_1757398092558_qdqqd_fqwyyr.avif",
-      "https://s3plus.meituan.net/opapisdk/op_ticket_885190757_1757398094217_qdqqd_yumaub.avif",
-      "https://s3plus.meituan.net/opapisdk/op_ticket_885190757_1757398127831_qdqqd_guf314.avif",
-      "https://s3plus.meituan.net/opapisdk/op_ticket_885190757_1757398131295_qdqqd_6qamva.avif"
-    ]
-  },
-  {
-    id: 'feng_yi',
-    name: "峰伈12",
-    title: "社长",
-    desc: "为人仁厚，重情重义。",
-    tags: ["虹虹玩家", "紫色韵味", "开服玩家"],
-    avatar: "https://gitee.com/tx-feng/FengHuaWuQue/raw/Vue/Static/player/avatar/avatar11.avif",
-    art: [
-      "https://s3plus.meituan.net/opapisdk/op_ticket_885190757_1757398092558_qdqqd_fqwyyr.avif",
-      "https://s3plus.meituan.net/opapisdk/op_ticket_885190757_1757398094217_qdqqd_yumaub.avif",
-      "https://s3plus.meituan.net/opapisdk/op_ticket_885190757_1757398127831_qdqqd_guf314.avif",
-      "https://s3plus.meituan.net/opapisdk/op_ticket_885190757_1757398131295_qdqqd_6qamva.avif"
-    ]
-  },
-  {
-    id: 'feng_yi',
-    name: "峰伈13",
-    title: "社长",
-    desc: "为人仁厚，重情重义。",
-    tags: ["虹虹玩家", "紫色韵味", "开服玩家"],
-    avatar: "https://gitee.com/tx-feng/FengHuaWuQue/raw/Vue/Static/player/avatar/avatar11.avif",
-    art: [
-      "https://s3plus.meituan.net/opapisdk/op_ticket_885190757_1757398092558_qdqqd_fqwyyr.avif",
-      "https://s3plus.meituan.net/opapisdk/op_ticket_885190757_1757398094217_qdqqd_yumaub.avif",
-      "https://s3plus.meituan.net/opapisdk/op_ticket_885190757_1757398127831_qdqqd_guf314.avif",
-      "https://s3plus.meituan.net/opapisdk/op_ticket_885190757_1757398131295_qdqqd_6qamva.avif"
-    ]
-  },
-  {
-    id: 'feng_yi',
-    name: "峰伈14",
+    name: "空",
     title: "社长",
     desc: "为人仁厚，重情重义。",
     tags: ["虹虹玩家", "紫色韵味", "开服玩家"],
@@ -522,7 +512,7 @@ const characterData = [
     ]
   },{
     id: 'feng_yi',
-    name: "峰伈15",
+    name: "空",
     title: "社长",
     desc: "为人仁厚，重情重义。",
     tags: ["虹虹玩家", "紫色韵味", "开服玩家"],
@@ -536,7 +526,7 @@ const characterData = [
   },
   {
     id: 'feng_yi',
-    name: "峰伈16",
+    name: "v",
     title: "社长",
     desc: "为人仁厚，重情重义。",
     tags: ["虹虹玩家", "紫色韵味", "开服玩家"],
@@ -550,7 +540,7 @@ const characterData = [
   },
   {
     id: 'feng_yi',
-    name: "峰伈17",
+    name: "空",
     title: "社长",
     desc: "为人仁厚，重情重义。",
     tags: ["虹虹玩家", "紫色韵味", "开服玩家"],
@@ -564,7 +554,7 @@ const characterData = [
   },
   {
     id: 'feng_yi',
-    name: "峰伈18",
+    name: "空",
     title: "社长",
     desc: "为人仁厚，重情重义。",
     tags: ["虹虹玩家", "紫色韵味", "开服玩家"],
@@ -578,7 +568,7 @@ const characterData = [
   },
   {
     id: 'feng_yi',
-    name: "峰伈19",
+    name: "空",
     title: "社长",
     desc: "为人仁厚，重情重义。",
     tags: ["虹虹玩家", "紫色韵味", "开服玩家"],
@@ -592,7 +582,7 @@ const characterData = [
   },
   {
     id: 'feng_yi',
-    name: "峰伈20",
+    name: "空",
     title: "社长",
     desc: "为人仁厚，重情重义。",
     tags: ["虹虹玩家", "紫色韵味", "开服玩家"],
@@ -606,7 +596,7 @@ const characterData = [
   },
   {
     id: 'feng_yi',
-    name: "峰伈21",
+    name: "空",
     title: "社长",
     desc: "为人仁厚，重情重义。",
     tags: ["虹虹玩家", "紫色韵味", "开服玩家"],
@@ -620,7 +610,7 @@ const characterData = [
   },
   {
     id: 'feng_yi',
-    name: "峰伈22",
+    name: "空",
     title: "社长",
     desc: "为人仁厚，重情重义。",
     tags: ["虹虹玩家", "紫色韵味", "开服玩家"],
@@ -633,7 +623,7 @@ const characterData = [
     ]
   },{
     id: 'feng_yi',
-    name: "峰伈23",
+    name: "空",
     title: "社长",
     desc: "为人仁厚，重情重义。",
     tags: ["虹虹玩家", "紫色韵味", "开服玩家"],
@@ -647,7 +637,7 @@ const characterData = [
   },
   {
     id: 'feng_yi',
-    name: "峰伈24",
+    name: "空",
     title: "社长",
     desc: "为人仁厚，重情重义。",
     tags: ["虹虹玩家", "紫色韵味", "开服玩家"],
@@ -661,7 +651,7 @@ const characterData = [
   },
   {
     id: 'feng_yi',
-    name: "峰伈25",
+    name: "空",
     title: "社长",
     desc: "为人仁厚，重情重义。",
     tags: ["虹虹玩家", "紫色韵味", "开服玩家"],
@@ -675,7 +665,7 @@ const characterData = [
   },
   {
     id: 'feng_yi',
-    name: "峰伈26",
+    name: "空",
     title: "社长",
     desc: "为人仁厚，重情重义。",
     tags: ["虹虹玩家", "紫色韵味", "开服玩家"],
@@ -690,7 +680,7 @@ const characterData = [
   
   {
     id: 'feng_yi',
-    name: "峰伈27",
+    name: "空",
     title: "社长",
     desc: "为人仁厚，重情重义。",
     tags: ["虹虹玩家", "紫色韵味", "开服玩家"],
@@ -704,7 +694,7 @@ const characterData = [
   },
   {
     id: 'feng_yi',
-    name: "峰伈28",
+    name: "空",
     title: "社长",
     desc: "为人仁厚，重情重义。",
     tags: ["虹虹玩家", "紫色韵味", "开服玩家"],
@@ -718,7 +708,7 @@ const characterData = [
   },
   {
     id: 'feng_yi',
-    name: "峰伈29",
+    name: "空",
     title: "社长",
     desc: "为人仁厚，重情重义。",
     tags: ["虹虹玩家", "紫色韵味", "开服玩家"],
@@ -732,7 +722,7 @@ const characterData = [
   },
   {
     id: 'feng_yi',
-    name: "峰伈30",
+    name: "空",
     title: "社长",
     desc: "为人仁厚，重情重义。",
     tags: ["虹虹玩家", "紫色韵味", "开服玩家"],
@@ -745,7 +735,7 @@ const characterData = [
     ]
   },{
     id: 'feng_yi',
-    name: "峰伈31",
+    name: "空",
     title: "社长",
     desc: "为人仁厚，重情重义。",
     tags: ["虹虹玩家", "紫色韵味", "开服玩家"],
@@ -759,7 +749,7 @@ const characterData = [
   },
   {
     id: 'feng_yi',
-    name: "峰伈32",
+    name: "空",
     title: "社长",
     desc: "为人仁厚，重情重义。",
     tags: ["虹虹玩家", "紫色韵味", "开服玩家"],
@@ -773,7 +763,7 @@ const characterData = [
   },
   {
     id: 'feng_yi',
-    name: "峰伈33",
+    name: "空",
     title: "社长",
     desc: "为人仁厚，重情重义。",
     tags: ["虹虹玩家", "紫色韵味", "开服玩家"],
@@ -787,7 +777,7 @@ const characterData = [
   },
   {
     id: 'feng_yi',
-    name: "峰伈34",
+    name: "空",
     title: "社长",
     desc: "为人仁厚，重情重义。",
     tags: ["虹虹玩家", "紫色韵味", "开服玩家"],
@@ -802,7 +792,7 @@ const characterData = [
   
   {
     id: 'feng_yi',
-    name: "峰伈35",
+    name: "空",
     title: "社长",
     desc: "为人仁厚，重情重义。",
     tags: ["虹虹玩家", "紫色韵味", "开服玩家"],
@@ -816,7 +806,7 @@ const characterData = [
   },
   {
     id: 'feng_yi',
-    name: "峰伈36",
+    name: "空",
     title: "社长",
     desc: "为人仁厚，重情重义。",
     tags: ["虹虹玩家", "紫色韵味", "开服玩家"],
@@ -830,7 +820,7 @@ const characterData = [
   },
   {
     id: 'feng_yi',
-    name: "峰伈37",
+    name: "空",
     title: "社长",
     desc: "为人仁厚，重情重义。",
     tags: ["虹虹玩家", "紫色韵味", "开服玩家"],
@@ -844,7 +834,7 @@ const characterData = [
   },
   {
     id: 'feng_yi',
-    name: "峰伈38",
+    name: "空",
     title: "社长",
     desc: "为人仁厚，重情重义。",
     tags: ["虹虹玩家", "紫色韵味", "开服玩家"],
@@ -857,7 +847,7 @@ const characterData = [
     ]
   },{
     id: 'feng_yi',
-    name: "峰伈39",
+    name: "空",
     title: "社长",
     desc: "为人仁厚，重情重义。",
     tags: ["虹虹玩家", "紫色韵味", "开服玩家"],
@@ -871,7 +861,7 @@ const characterData = [
   },
   {
     id: 'feng_yi',
-    name: "峰伈40",
+    name: "空",
     title: "社长",
     desc: "为人仁厚，重情重义。",
     tags: ["虹虹玩家", "紫色韵味", "开服玩家"],
@@ -885,7 +875,7 @@ const characterData = [
   },
   {
     id: 'feng_yi',
-    name: "峰伈41",
+    name: "空",
     title: "社长",
     desc: "为人仁厚，重情重义。",
     tags: ["虹虹玩家", "紫色韵味", "开服玩家"],
@@ -899,7 +889,7 @@ const characterData = [
   },
   {
     id: 'feng_yi',
-    name: "峰伈42",
+    name: "空",
     title: "社长",
     desc: "为人仁厚，重情重义。",
     tags: ["虹虹玩家", "紫色韵味", "开服玩家"],
@@ -914,7 +904,7 @@ const characterData = [
   
   {
     id: 'feng_yi',
-    name: "峰伈43",
+    name: "空",
     title: "社长",
     desc: "为人仁厚，重情重义。",
     tags: ["虹虹玩家", "紫色韵味", "开服玩家"],
@@ -928,7 +918,7 @@ const characterData = [
   },
   {
     id: 'feng_yi',
-    name: "峰伈44",
+    name: "空",
     title: "社长",
     desc: "为人仁厚，重情重义。",
     tags: ["虹虹玩家", "紫色韵味", "开服玩家"],
@@ -942,7 +932,7 @@ const characterData = [
   },
   {
     id: 'feng_yi',
-    name: "峰伈45",
+    name: "空",
     title: "社长",
     desc: "为人仁厚，重情重义。",
     tags: ["虹虹玩家", "紫色韵味", "开服玩家"],
@@ -956,7 +946,7 @@ const characterData = [
   },
   {
     id: 'feng_yi',
-    name: "峰伈46",
+    name: "v",
     title: "社长",
     desc: "为人仁厚，重情重义。",
     tags: ["虹虹玩家", "紫色韵味", "开服玩家"],
@@ -969,7 +959,7 @@ const characterData = [
     ]
   },{
     id: 'feng_yi',
-    name: "峰伈47",
+    name: "空",
     title: "社长",
     desc: "为人仁厚，重情重义。",
     tags: ["虹虹玩家", "紫色韵味", "开服玩家"],
@@ -983,7 +973,7 @@ const characterData = [
   },
   {
     id: 'feng_yi',
-    name: "峰伈48",
+    name: "空",
     title: "社长",
     desc: "为人仁厚，重情重义。",
     tags: ["虹虹玩家", "紫色韵味", "开服玩家"],
@@ -997,7 +987,7 @@ const characterData = [
   },
   {
     id: 'feng_yi',
-    name: "峰伈49",
+    name: "空",
     title: "社长",
     desc: "为人仁厚，重情重义。",
     tags: ["虹虹玩家", "紫色韵味", "开服玩家"],
@@ -1011,7 +1001,7 @@ const characterData = [
   },
   {
     id: 'feng_yi',
-    name: "峰伈50",
+    name: "空",
     title: "社长",
     desc: "为人仁厚，重情重义。",
     tags: ["虹虹玩家", "紫色韵味", "开服玩家"],
@@ -1026,7 +1016,7 @@ const characterData = [
   
   {
     id: 'feng_yi',
-    name: "峰伈51",
+    name: "空",
     title: "社长",
     desc: "为人仁厚，重情重义。",
     tags: ["虹虹玩家", "紫色韵味", "开服玩家"],
@@ -1040,7 +1030,7 @@ const characterData = [
   },
   {
     id: 'feng_yi',
-    name: "峰伈52",
+    name: "空",
     title: "社长",
     desc: "为人仁厚，重情重义。",
     tags: ["虹虹玩家", "紫色韵味", "开服玩家"],
@@ -1054,7 +1044,7 @@ const characterData = [
   },
   {
     id: 'feng_yi',
-    name: "峰伈53",
+    name: "空",
     title: "社长",
     desc: "为人仁厚，重情重义。",
     tags: ["虹虹玩家", "紫色韵味", "开服玩家"],
@@ -1068,7 +1058,7 @@ const characterData = [
   },
   {
     id: 'feng_yi',
-    name: "峰伈54",
+    name: "空",
     title: "社长",
     desc: "为人仁厚，重情重义。",
     tags: ["虹虹玩家", "紫色韵味", "开服玩家"],
@@ -1081,7 +1071,7 @@ const characterData = [
     ]
   },{
     id: 'feng_yi',
-    name: "峰伈55",
+    name: "空",
     title: "社长",
     desc: "为人仁厚，重情重义。",
     tags: ["虹虹玩家", "紫色韵味", "开服玩家"],
@@ -1095,7 +1085,7 @@ const characterData = [
   },
   {
     id: 'feng_yi',
-    name: "峰伈56",
+    name: "空",
     title: "社长",
     desc: "为人仁厚，重情重义。",
     tags: ["虹虹玩家", "紫色韵味", "开服玩家"],
@@ -1109,7 +1099,7 @@ const characterData = [
   },
   {
     id: 'feng_yi',
-    name: "峰伈57",
+    name: "空",
     title: "社长",
     desc: "为人仁厚，重情重义。",
     tags: ["虹虹玩家", "紫色韵味", "开服玩家"],
@@ -1123,7 +1113,7 @@ const characterData = [
   },
   {
     id: 'feng_yi',
-    name: "峰伈58",
+    name: "空",
     title: "社长",
     desc: "为人仁厚，重情重义。",
     tags: ["虹虹玩家", "紫色韵味", "开服玩家"],
@@ -1138,7 +1128,7 @@ const characterData = [
   
   {
     id: 'feng_yi',
-    name: "峰伈59",
+    name: "空",
     title: "社长",
     desc: "为人仁厚，重情重义。",
     tags: ["虹虹玩家", "紫色韵味", "开服玩家"],
@@ -1152,7 +1142,7 @@ const characterData = [
   },
   {
     id: 'feng_yi',
-    name: "峰伈60",
+    name: "空",
     title: "社长",
     desc: "为人仁厚，重情重义。",
     tags: ["虹虹玩家", "紫色韵味", "开服玩家"],
@@ -1166,7 +1156,7 @@ const characterData = [
   },
   {
     id: 'feng_yi',
-    name: "峰伈61",
+    name: "空",
     title: "社长",
     desc: "为人仁厚，重情重义。",
     tags: ["虹虹玩家", "紫色韵味", "开服玩家"],
@@ -1180,7 +1170,7 @@ const characterData = [
   },
   {
     id: 'feng_yi',
-    name: "峰伈62",
+    name: "空",
     title: "社长",
     desc: "为人仁厚，重情重义。",
     tags: ["虹虹玩家", "紫色韵味", "开服玩家"],
@@ -1193,7 +1183,7 @@ const characterData = [
     ]
   },{
     id: 'feng_yi',
-    name: "峰伈63",
+    name: "空",
     title: "社长",
     desc: "为人仁厚，重情重义。",
     tags: ["虹虹玩家", "紫色韵味", "开服玩家"],
@@ -1207,7 +1197,7 @@ const characterData = [
   },
   {
     id: 'feng_yi',
-    name: "峰伈64",
+    name: "空",
     title: "社长",
     desc: "为人仁厚，重情重义。",
     tags: ["虹虹玩家", "紫色韵味", "开服玩家"],
@@ -1221,7 +1211,7 @@ const characterData = [
   },
   {
     id: 'feng_yi',
-    name: "峰伈65",
+    name: "空",
     title: "社长",
     desc: "为人仁厚，重情重义。",
     tags: ["虹虹玩家", "紫色韵味", "开服玩家"],
@@ -1235,7 +1225,7 @@ const characterData = [
   },
   {
     id: 'feng_yi',
-    name: "峰伈66",
+    name: "空",
     title: "社长",
     desc: "为人仁厚，重情重义。",
     tags: ["虹虹玩家", "紫色韵味", "开服玩家"],
@@ -1250,7 +1240,7 @@ const characterData = [
   
   {
     id: 'feng_yi',
-    name: "峰伈67",
+    name: "空",
     title: "社长",
     desc: "为人仁厚，重情重义。",
     tags: ["虹虹玩家", "紫色韵味", "开服玩家"],
@@ -1264,7 +1254,7 @@ const characterData = [
   },
   {
     id: 'feng_yi',
-    name: "峰伈68",
+    name: "空",
     title: "社长",
     desc: "为人仁厚，重情重义。",
     tags: ["虹虹玩家", "紫色韵味", "开服玩家"],
@@ -1278,7 +1268,7 @@ const characterData = [
   },
   {
     id: 'feng_yi',
-    name: "峰伈69",
+    name: "空",
     title: "社长",
     desc: "为人仁厚，重情重义。",
     tags: ["虹虹玩家", "紫色韵味", "开服玩家"],
@@ -1292,7 +1282,7 @@ const characterData = [
   },
   {
     id: 'feng_yi',
-    name: "峰伈70",
+    name: "空",
     title: "社长",
     desc: "为人仁厚，重情重义。",
     tags: ["虹虹玩家", "紫色韵味", "开服玩家"],
@@ -1305,7 +1295,7 @@ const characterData = [
     ]
   },{
     id: 'feng_yi',
-    name: "峰伈71",
+    name: "空",
     title: "社长",
     desc: "为人仁厚，重情重义。",
     tags: ["虹虹玩家", "紫色韵味", "开服玩家"],
@@ -1319,7 +1309,7 @@ const characterData = [
   },
   {
     id: 'feng_yi',
-    name: "峰伈72",
+    name: "空",
     title: "社长",
     desc: "为人仁厚，重情重义。",
     tags: ["虹虹玩家", "紫色韵味", "开服玩家"],
@@ -1333,7 +1323,7 @@ const characterData = [
   },
   {
     id: 'feng_yi',
-    name: "峰伈73",
+    name: "空",
     title: "社长",
     desc: "为人仁厚，重情重义。",
     tags: ["虹虹玩家", "紫色韵味", "开服玩家"],
@@ -1347,7 +1337,7 @@ const characterData = [
   },
   {
     id: 'feng_yi',
-    name: "峰伈74",
+    name: "空",
     title: "社长",
     desc: "为人仁厚，重情重义。",
     tags: ["虹虹玩家", "紫色韵味", "开服玩家"],
