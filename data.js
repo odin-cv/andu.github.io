@@ -57,79 +57,75 @@ const demoVideos = [
 // 角色数据管理
 const characterData = [
   {
-    id: 'feng_yi',
-    name: "峰伈",
+    id: 'sheng_qin_shu',
+    name: "声琴舒",
     title: "社长",
-    desc: "为人仁厚，重情重义。",
-    tags: ["虹虹玩家", "紫色韵味", "开服玩家"],
+    desc: "小声爱做白日梦",
+    tags: ["好人", "话多", "懒虫"],
     avatar: "https://gitee.com/tx-feng/FengHuaWuQue/raw/Vue/Static/player/avatar/avatar11.avif",
     art: [
-      "https://s3plus.meituan.net/opapisdk/op_ticket_885190757_1757398092558_qdqqd_fqwyyr.avif",
-      "https://s3plus.meituan.net/opapisdk/op_ticket_885190757_1757398094217_qdqqd_yumaub.avif",
-      "https://s3plus.meituan.net/opapisdk/op_ticket_885190757_1757398127831_qdqqd_guf314.avif",
-      "https://s3plus.meituan.net/opapisdk/op_ticket_885190757_1757398131295_qdqqd_6qamva.avif"
+      "https://s3plus.meituan.net/opapisdk/op_ticket_1_885190757_1763199464540_qdqqd_o95hfo.avif",
+      "https://s3plus.meituan.net/opapisdk/op_ticket_1_5677168484_1763199780214_qdqqd_0wk7aw.avif"
+     
+      
     ]
   },
   {
-    id: 'meng_jiu_shang',
-    name: "梦酒殇",
-    title: "招生办",
-    desc: "我请问呢?老大你在不好什么?",
-    tags: ["无名大王", "暴揍老大", "咸鱼!!!"],
+    id: 'wen_hao',
+    name: "文昊",
+    title: "老师",
+    desc: "非常想进步",
+    tags: ["待定", "待定", "待定"],
     avatar: "https://gitee.com/tx-feng/FengHuaWuQue/raw/Vue/Static/player/avatar/avatar83.avif",
     art: [
-      "https://s3plus.meituan.net/opapisdk/op_ticket_885190757_1757396364743_qdqqd_s6v7d2.avif",
-      "https://s3plus.meituan.net/opapisdk/op_ticket_885190757_1757396370719_qdqqd_6gwcpi.avif"
+      "https://s3plus.meituan.net/opapisdk/op_ticket_1_5677168484_1763202705549_qdqqd_yt6564.avif"
+      
     ]
   },
   {
-    id: 'xiao_chen_fa_da_cai',
-    name: "小陈发大财",
-    title: "奶妈大王",
-    desc: "都过来吃奶！！！不吃奶就去死啊！！！",
-    tags: ["阎王大点名", "后宫佳丽三千", "我看谁不卸势！", "美食品鉴官"],
+    id: 'wu_you',
+    name: "乄丣",
+    title: "待定",
+    desc: "八音窍有几个响",
+    tags: ["待定", "待定", "待定", "待定"],
     avatar: "https://gitee.com/tx-feng/FengHuaWuQue/raw/Vue/Static/player/avatar/avatar35.avif",
     art: [
-      "https://s3plus.meituan.net/opapisdk/op_ticket_885190757_1757396882965_qdqqd_o4dnit.avif",
-      "https://s3plus.meituan.net/opapisdk/op_ticket_885190757_1757396887602_qdqqd_i3fw7h.avif",
-      "https://s3plus.meituan.net/opapisdk/op_ticket_885190757_1757396888656_qdqqd_ay2435.avif"
+      "https://s3plus.meituan.net/opapisdk/op_ticket_1_885190757_1763202993748_qdqqd_ig2lbv.avif"
+     
+     
     ]
   },
   {
-    id: 'shi_liu_sui',
-    name: "施流岁",
-    title: "奶妈小王",
-    desc: "不要瞧不起我啊！混蛋！我的奶量也是很足的！",
-    tags: ["新星奶妈", "压力再大点", "血条包稳"],
+    id: 'mo_tu_tu',
+    name: "茉菟菟",
+    title: "躺地板大王",
+    desc: "躺地板大王",
+    tags: ["待定", "待定", "待定"],
     avatar: "https://gitee.com/tx-feng/FengHuaWuQue/raw/Vue/Static/player/avatar/avatar61.avif",
     art: ["https://s3plus.meituan.net/opapisdk/op_ticket_885190757_1757396980580_qdqqd_sbec34.avif"]
   },
   {
-    id: 'xian_huan_xing',
-    name: "闲换星",
-    title: "小水？",
-    desc: "万千分魂，那个才是真正的我？",
-    tags: ["本体", "分魂", "桀桀桀"],
+    id: 'ben_jiu_nei_xiang',
+    name: "本就内向",
+    title: "待定",
+    desc: "后来啊",
+    tags: ["待定", "待定", "待定"],
     avatar: "https://gitee.com/tx-feng/FengHuaWuQue/raw/Vue/Static/player/avatar/avatar39.avif",
     art: [
-      "https://s3plus.meituan.net/opapisdk/op_ticket_885190757_1757397004514_qdqqd_q8jlps.avif",
-      "https://s3plus.meituan.net/opapisdk/op_ticket_885190757_1757397006815_qdqqd_kxeqns.avif",
-      "https://s3plus.meituan.net/opapisdk/op_ticket_885190757_1757397008464_qdqqd_jzx3nh.avif",
-      "https://s3plus.meituan.net/opapisdk/op_ticket_885190757_1757397009952_qdqqd_vmkuos.avif",
-      "https://s3plus.meituan.net/opapisdk/op_ticket_885190757_1757397011272_qdqqd_4ndpbs.avif",
-      "https://s3plus.meituan.net/opapisdk/op_ticket_885190757_1757397012201_qdqqd_sobyzx.avif"
+      "https://s3plus.meituan.net/opapisdk/op_ticket_1_5677168484_1763206259917_qdqqd_co42aq.avif"
+      
     ]
   },
   {
-    id: 'yu_qiang_ran',
-    name: "玉锵然",
-    title: "好人",
-    desc: "君子坦荡荡，小人长戚戚。",
-    tags: ["诚实", "直言不讳", "小玉"],
+    id: 'chi',
+    name: "池蕤清",
+    title: "待定",
+    desc: "超级i人😶",
+    tags: ["极致探索"],
     avatar: "https://gitee.com/tx-feng/FengHuaWuQue/raw/Vue/Static/player/avatar/avatar34.avif",
     art: [
-      "https://s3plus.meituan.net/opapisdk/op_ticket_885190757_1757397185939_qdqqd_p3jwtg.avif",
-      "https://s3plus.meituan.net/opapisdk/op_ticket_885190757_1757397188354_qdqqd_luamiz.avif"
+      "https://s3plus.meituan.net/opapisdk/op_ticket_1_5677168484_1763206451592_qdqqd_7cgt65.avif"
+    
     ]
   },
   {
