@@ -218,7 +218,7 @@ const characterData = [
     tags: ["待定", "待定"],
     avatar: "https://gitee.com/tx-feng/FengHuaWuQue/raw/Vue/Static/player/avatar/avatar49.avif",
     art: [
-      "https://s3plus.meituan.net/opapisdk/op_ticket_1_885190757_1763208929883_qdqqd_knnp09.avif"
+      "https://s3plus.meituan.net/opapisdk/op_ticket_1_5677168484_1763289929012_qdqqd_22lcc9.avif"
       
     ]
   },
@@ -313,20 +313,20 @@ const characterData = [
     ]
   },
   {
-    id: 'ming_wu_qi',
-    name: "空",
-    title: "空",
-    desc: "空",
-    tags: ["空"],
+    id: 'yi_xun_bei',
+    name: "易寻北",
+    title: "社员",
+    desc: "懒死得了",
+    tags: ["懒人","摸鱼"],
     avatar: "https://gitee.com/tx-feng/FengHuaWuQue/raw/Vue/Static/player/avatar/avatar83.avif",
     art: ["https://s3plus.meituan.net/opapisdk/op_ticket_885190757_1757398488001_qdqqd_m49adk.avif"]
   },
   {
-    id: 'chang_sheng',
-    name: "空",
+    id: 'fa_chen_chen',
+    name: "法辰辰",
     title: "社员",
     desc: "空",
-    tags: ["空"],
+    tags: ["傻萌甜"],
     avatar: "https://gitee.com/tx-feng/FengHuaWuQue/raw/Vue/Static/player/avatar/avatar65.avif",
     art: [
       "https://s3plus.meituan.net/opapisdk/op_ticket_885190757_1758436310174_qdqqd_w4er4j.avif"
